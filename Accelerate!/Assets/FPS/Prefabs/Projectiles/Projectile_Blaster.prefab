@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3659995153115176982}
   - component: {fileID: 8924682559891268397}
-  - component: {fileID: 1940722589906102397}
+  - component: {fileID: 6342468815952443645}
   m_Layer: 0
   m_Name: Projectile_Blaster
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MonoBehaviour:
   Damage: 15
   AreaOfDamage: {fileID: 0}
   RadiusColor: {r: 0, g: 1, b: 0.9007921, a: 1}
---- !u!65 &1940722589906102397
+--- !u!65 &6342468815952443645
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,7 +76,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.57}
 --- !u!1 &5564024855854763701
 GameObject:
   m_ObjectHideFlags: 0
